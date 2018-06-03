@@ -1,0 +1,117 @@
+
+<!-- /////////////////////////Debut Nav ///////////////// -->
+
+<!-- Dropdown -->
+
+<div class="navbar-fixed">
+
+    <ul id="dropdown1" class="dropdown-content" >
+    
+        <li class="divider"></li>
+        <li><a routerLink="projets/projet1" href="">Projet 1</a></li>
+        <li class="divider"></li>
+        <li><a routerLink="projets/projet2" href="">Projet 2</a></li>
+        <li class="divider"></li>
+        <li><a routerLink="projets/projet3" href="">Projet 3</a></li>
+  
+      </ul>
+  
+  <!-- Responsive Nav-->
+  
+      <ul class="sidenav" id="mobile-demo">
+          <li><a routerLink=" " href="">Accueil</a></li>
+          <li><a routerLink="/aPropos" href="">A propos</a></li>
+          <li><a routerLink="/jeProgramme" href="">Je programme</a></li>
+          <li><a routerLink="/jeModelise" href="">Je modelise</a></li>
+          <li><a routerLink="/imprimeTroisD" href="">J'imprime en 3d</a></li>
+          <li><a routerLink="/contact" href="">Contact</a></li>
+          
+          <li><a><strong>Projets</strong></a>
+          <ul>
+            <li><a routerLink="projets/projet1" href="">Projets 1</a></li>
+            <li><a routerLink="projets/projet2" href="">Projets 2</a></li>
+            <li><a routerLink="projets/projet3" href="">Projets 3</a></li>          
+          </ul>
+        </li>
+      </ul>
+  
+  <!-- Nav bar-->
+  
+    <nav>
+      <div class="nav-wrapper">
+        <div>
+          <div>
+            <a href="" class="brand-logo"> <img id="logo" routerLink="" src="../assets/img/logostartuino.png" alt=""></a>
+          </div>
+        </div>
+        <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a routerLink="" href="">Accueil</a></li>
+          <li><a routerLink="/apropos" href="">A propos</a></li>
+          <li><a routerLink="/jeprogramme" href="">Je programme</a></li>
+          <li><a routerLink="/jemodelise" href="">Je modelise</a></li>
+          <li><a routerLink="/jimprimeentroisd" href="badges.html">J'imprime en 3d</a></li>
+          <li><a routerLink="/contact" href="badges.html">Contact</a></li>
+          <li><a class="dropdown-trigger" href="" data-target="dropdown1">
+            Projets
+            <i class="material-icons right">arrow_drop_down</i>
+          </a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+    
+  <!-- ///////////////////////// Fin Nav  -->
+
+  <router-outlet></router-outlet> 
+
+
+
+ <!-- ///////////////////////// Debut Footer  -->
+
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class=""><a class="" href="http://startuino.fr">Statuino Education</a></h5>
+          <p class="grey-text text-lighten-4">L'éducation est l'arme la plus puissante pour changer le monde.</p>
+          <p>"Nelson Mandela"</p>
+    
+    
+        </div>
+        <div class="col l3 s12">
+          <h5 class="">Liens</h5>
+          <ul>
+            <li><a class="" href="#!">Facebook</a></li>
+            <li><a class="" href="#!">Youtube channel</a></li>
+            <li><a class="" href="#!">Instagram</a></li>
+            <li><a class="" href="#!">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="">Menu</h5>
+          <ul>
+            <li><a routerLink="" href="">Accueil</a></li>
+            <li><a class="" href="#!">A propos</a></li>
+            <li><a class="" href="#!">Je programme</a></li>
+            <li><a class="" href="#!">Je modélise</a></li>
+            <li><a class="" href="#!">J'imprime en 3d</a></li>
+            <li><a class="" href="#!">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="" href="http://startuino.fr">Statuino Education</a>
+      </div>
+    </div>
+</footer>
+    <!--  Scripts-->
+    <!--script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script-->
+
+     <!-- ///////////////////////// Debut Footer  -->

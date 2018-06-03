@@ -1,7 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
 .icon-block {
     padding: 0 15px;
   }
   .icon-block .material-icons {
       font-size: inherit;
   }
+
+  nav{
+      background-color: rgb(105, 105, 172) !important ;
+  }
+
+  footer{
+    background-color: rgb(77, 77, 148) !important ;
+}
+
+#step{
+    width: 50%;
+}
+
+.header {
+    text-align: center;
+}
+
+.paraphCenter {
+    text-align: center !important;
+    text-align: justify !important;
+}
+
+.taille{
+    width: auto;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px;
+
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+/* Formulaire de contact*/
+
+#contactForm{
+    width: 50%;
+}
+
+/*  bloc video */
+
+.conteneur {
+position: relative;
+}
+
+/*  video de presentation  */
+.conteneur iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* div contenant les objectifs du site*/
+
+#blocObjectfis{
+    background-color: rgba(212, 212, 212, 0.116);
+}
+
+/* socialNetwork */
+
+#socialNetwork{
+    height: 300px;
+}
+
+/* sizeIcon */
+
+#sizeIcon{
+    width: 150px;
+}
+
+
+.test{
+    height: 300px;
+}
+
+
+/* Logo En tete*/
+#logo{
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 11px;
+}
